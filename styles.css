@@ -104,25 +104,3 @@ audio {
         font-size: 1.1rem;
     }
 }
-
-.contador {
-    background-color: #ff69b4; /* Fondo rosado */
-    color: white; /* Letras blancas */
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px auto;
-    max-width: 400px;
-    text-align: center;
-}
-
-#cuenta-regresiva {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-#cuenta-regresiva span {
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
-    border-radius: 5px;
-    margin: 0 5px;
-}
