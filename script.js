@@ -67,3 +67,37 @@ particlesJS("particles-js", {
     },
     retina_detect: true
 });
+
+
+// Fecha del evento (29 de marzo de 2025 a las 17:30)
+const fechaEvento = new Date("March 29, 2025 17:30:00").getTime();
+
+// Función para actualizar el contador
+function actualizarContador() {
+    const ahora = new Date().getTime();
+    const tiempoRestante = fechaEvento - ahora;
+
+    // Cálculos para días, horas, minutos y segundos
+    const dias = Math.floor(tiempoRestante / (1000 * 60 * 60 * 24));
+    const horas = Math.floor((tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
+    const segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
+
+    // Actualiza los elementos HTML
+    document.getElementById("dias").innerText = dias;
+    document.getElementById("horas").innerText = horas;
+    document.getElementById("minutos").innerText = minutos;
+    document.getElementById("segundos").innerText = segundos;
+
+    // Si el evento ya pasó
+    if (tiempoRestante < 0) {
+        clearInterval(intervalo);
+        document.getElementById("cuenta-regresiva").innerHTML = "¡El evento ha comenzado!";
+    }
+}
+
+// Actualiza el contador cada segundo
+const intervalo = setInterval(actualizarContador, 1000);
+
+// Llama a la función para evitar un retraso inicial
+actualizarContador();
