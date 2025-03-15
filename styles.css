@@ -117,3 +117,19 @@ audio {
         font-size: 1.2rem;
     }
 }
+
+.quince {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 30vw; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+   
+}
+
+.nombre {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 50vw; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+   
+}
