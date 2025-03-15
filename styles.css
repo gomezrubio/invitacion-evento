@@ -33,20 +33,20 @@ h2 {
 
 h3 {
     color: #fa71ff;
-    font-size: 4.5rem;
+    font-size: 8vw;
     font-family: 'Times New Roman', Times, serif;
     line-height: 0.1;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 2.5vw;
     line-height: 0.2;
     color: #000000;
 }
 
 
 img {
-    max-width: 50rem;
+    max-width: 50vw;
     height: auto;
     border-radius: 10px;
     margin: 20px;
