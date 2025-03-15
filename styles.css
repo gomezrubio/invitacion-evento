@@ -121,7 +121,7 @@ audio {
 .quince {
     display: block; /* Hace que la imagen sea un bloque */
     margin: 0 auto; /* Centra horizontalmente */
-    max-width: 30vw; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width: 50vw; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción */
    
 }
@@ -129,7 +129,7 @@ audio {
 .nombre {
     display: block; /* Hace que la imagen sea un bloque */
     margin: 0 auto; /* Centra horizontalmente */
-    max-width: 50vw; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width:50rw;/* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción */
    
 }
