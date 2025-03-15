@@ -33,13 +33,13 @@ h2 {
 
 h3 {
     color: #fa71ff;
-    font-size: 5rem;
+    font-size: 500%;
     font-family: 'Times New Roman', Times, serif;
     line-height: 0.1;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 200%;
     line-height: 0.2;
     color: #000000;
 }
